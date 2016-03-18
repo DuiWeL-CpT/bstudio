@@ -1,0 +1,31 @@
+{
+  "name": "bstudio",
+  "version": "1.0.0",
+  "description": "Bootstrap Studio command line interface",
+  "main": "bstudio.js",
+  "bin": {
+    "bstudio": "bstudio.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zine-eood/bstudio.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "studio",
+    "command",
+    "line"
+  ],
+  "author": "Zine EOOD <hi@zine.bg> (http://zine.bg/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://bootstrapstudio.io/forums/"
+  },
+  "homepage": "https://github.com/zine-eood/bstudio#readme",
+  "dependencies": {
+    "yargs": "^4.3.1"
+  }
+}
