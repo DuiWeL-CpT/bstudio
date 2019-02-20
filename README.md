@@ -1,7 +1,7 @@
 # bstudio - CLI for Bootstrap Studio
 
 `bstudio` is a node.js command line application which presents an interface to
-[Bootstrap Studio](https://bootstrapstudio.io/) through the command line. It's
+[Bootstrap Studio](https://bootstrapstudio.io/) through the command line. Its
 purpose is to automate various tasks like automatically generating Bootstrap
 Studio components (.bscomp files) from scripts.
 
@@ -68,6 +68,7 @@ these to the JSON:
 ```json
 {
   "name": "My Sweet Component",
+  "framework": "4",
   "html": "<p class=\"custom\">The HTML of your component.</p>",
   "js": [ "alert(1);" ],
   "css": [ ".custom { font-size:20px;color:red; }" ],
@@ -77,6 +78,9 @@ these to the JSON:
   "images": [ "/path/to/image.png" ]
 }
 ```
+
+The **framework** property indicates which version of the Bootstrap framework 
+to use. By default it is set to Bootstrap 3.
 
 You can add more values to the arrays if you wish your component to contain 
 multiple files of that type. The **images** array should contain paths to 
@@ -91,4 +95,4 @@ To report bugs or ask for help, use our [forum](https://bootstrapstudio.io/forum
 
 Released under the MIT license. 
 
-Zine EOOD (c) 2016
+Zine EOOD (c) 2019
